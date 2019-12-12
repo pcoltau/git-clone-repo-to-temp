@@ -5,6 +5,8 @@ Utility script for cloning a git repository to a temporary folder
 
     curl -sSL 'https://raw.githubusercontent.com/pcoltau/git-clone-repo-to-temp-dir/master/git-clone-repo.sh' -o git-clone-repo.sh
     
+	chmod +x git-clone-repo.sh
+
     ./git-clone-repo.sh <git-repo>
 
 ## Usage
